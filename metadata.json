@@ -1,0 +1,6 @@
+{
+  "name": "المستشار جروب لتأجير السيارات | Al-Mostashar Group",
+  "description": "أكبر شركة تأجير سيارات وخدمات ليموزين في صعيد مصر منذ عام 2005 — إيجار يومي وأسبوعي وشهري، بسائق وبدون سائق، سيارات زفاف وتعاقدات شركات.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
