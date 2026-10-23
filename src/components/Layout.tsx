@@ -247,33 +247,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
               </span>
             </nav>
 
-            {/* Shareable Direct Route Link Indicator */}
-            <div className="flex items-center gap-2 bg-white px-3 py-1 rounded-lg border border-slate-300 text-xs">
-              <span className="text-slate-600 font-semibold hidden sm:inline">رابط الصفحة:</span>
-              <code
-                dir="ltr"
-                className="font-mono text-[11px] font-semibold text-blue-950 truncate max-w-[210px] sm:max-w-[300px]"
-              >
-                {displayCanonicalUrl}
-              </code>
-              <button
-                type="button"
-                onClick={handleCopyRouteLink}
-                className="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-blue-50 hover:bg-blue-100 text-blue-900 font-bold transition-colors whitespace-nowrap shrink-0"
-              >
-                {copiedUrl ? (
-                  <>
-                    <Check className="w-3.5 h-3.5 text-emerald-700" />
-                    <span className="text-emerald-800">تم النسخ</span>
-                  </>
-                ) : (
-                  <>
-                    <Link2 className="w-3.5 h-3.5" />
-                    <span>نسخ الرابط</span>
-                  </>
-                )}
-              </button>
-            </div>
+            
           </div>
         </div>
       )}
